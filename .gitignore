@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Node (if used)
+node_modules/
+
+# Build artifacts for Arduino / PlatformIO
+build/
+*.o
+*.d
+*.elf
+*.hex
+*.bin
+*.eep
+*.map
+*.lst
+*.tmp
+
+# PlatformIO
+.pio/
+.pioenvs/
+.arduino15/
+
+# Temporary and log files
+*.log
+*.tmp
+
+# Thumbnails
+Thumbs.db
+
+# Misc
+*.bak
+*.orig
+
+# Ignore local libraries folder (added per request)
+# If you want to keep the `libraries/` directory out of git, uncomment the line below.
+libraries/
+# If you use local library build folders, ignore them explicitly, e.g.:
+# **/build/
