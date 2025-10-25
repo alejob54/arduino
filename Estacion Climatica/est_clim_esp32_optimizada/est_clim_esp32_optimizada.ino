@@ -44,7 +44,7 @@ void setup() {
   }
 
   float humidity = dht.readHumidity();
-  float temperature = bmp.readTemperature();
+  float temperature = dht.readTemperature();
   float pressure = bmp.readPressure() / 100.0F;
   float altitude = bmp.readAltitude(1013.25);
 
